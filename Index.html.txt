@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Accessible Writing</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Accessible Writing Support</h1>
+  <p>Write clearly. Learn easily. Include everyone.</p>
+</header>
+
+<nav aria-label="Main navigation">
+  <a href="index.html" aria-current="page">Home</a>
+  <a href="writing-tips.html">Writing Tips</a>
+  <a href="grammar-guide.html">Grammar Guide</a>
+  <a href="templates.html">Templates</a>
+  <a href="accessibility-guide.html">Accessibility</a>
+</nav>
+
+<main>
+  <h2>Welcome to Your Writing Guide!</h2>
+  <p>
+    This website helps students improve their writing skills
+    with simple tips, grammar rules, downloadable templates,
+    and accessibility guidance.
+  </p>
+
+  <section class="card">
+    <h2>Writing Tips</h2>
+    <p>Learn how to write clear paragraphs and essays.</p>
+    <a class="button" href="writing-tips.html">Explore Tips</a>
+  </section>
+
+  <section class="card">
+    <h2>Grammar Guide</h2>
+    <p>Understand basic grammar and punctuation.</p>
+    <a class="button" href="grammar-guide.html">Learn Grammar</a>
+  </section>
+
+  <section class="card">
+    <h2>Downloadable Templates</h2>
+    <p>Use ready-made templates for your writing tasks.</p>
+    <a class="button" href="templates.html">View Templates</a>
+  </section>
+
+  <section class="card">
+    <h2>Accessibility Guide</h2>
+    <p>Make your writing easier for everyone to read.</p>
+    <a class="button" href="accessibility-guide.html">
+      Learn Accessibility
+    </a>
+  </section>
+</main>
+
+<footer>
+  <p>Accessible Writing Support Website | Student Mini Project</p>
+</footer>
+
+</body>
+</html>

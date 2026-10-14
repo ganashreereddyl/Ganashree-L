@@ -1,0 +1,113 @@
+/* General website design */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fc;
+  color: #243247;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+header {
+  background-color: #24476b;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #dceafa;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  color: #173b60;
+  font-weight: bold;
+  padding: 8px;
+  margin: 3px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #ffffff;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 950px;
+  margin: auto;
+  padding: 25px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 18px 0;
+  border-radius: 12px;
+  border: 1px solid #d4e0ed;
+}
+
+.button {
+  display: inline-block;
+  background-color: #24476b;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #142e49;
+  text-decoration: underline;
+}
+
+a {
+  color: #174e88;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+footer {
+  background-color: #24476b;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: white;
+}
+
+:focus-visible {
+  outline: 3px solid #e29b25;
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 15px;
+  }
+
+  nav a {
+    display: block;
+  }
+}
+What output will get for this code
